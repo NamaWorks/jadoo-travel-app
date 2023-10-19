@@ -1,0 +1,47 @@
+:root {
+  --main-yellow: #F1A501;
+  --main-salmon: #DF6951;
+  --bg-color: #FFFFFF;
+  --main-navy_blue: #181E4B;
+  --main-light_blue: #5E6282;
+  --light-grey: #F9F7FE;
+  --light-purple: #F9F7FE;
+  --text-p-size: 1rem;
+  --text-subtitle-size: 1.2rem;
+  --font-family-titles: 'Volkhov', sans-serif;
+  --font-family-text: 'Poppins', serif;
+  --font-subtitles-size: 20px;
+  --font-subtitles-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-list {
+  display: flex;
+  gap: 4vw;
+  list-style: none;
+}
+
+li a {
+  font-size: var(--font-subtitles-size);
+  text-decoration: none;
+  color: var(--main-navy_blue);
+  font-family: var(--font-family-text);
+  font-weight: var(--font-subtitles-weight);
+}
