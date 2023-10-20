@@ -10,8 +10,12 @@
   --text-subtitle-size: 1.2rem;
   --font-family-titles: 'Volkhov', sans-serif;
   --font-family-text: 'Poppins', serif;
-  --font-subtitles-size: 20px;
-  --font-subtitles-weight: 400;
+  --font-p-size: 0.8rem;
+  --font-p-weight: 300;
+  --font-subtitles-size: 1rem;
+  --font-subtitles-weight: 500;
+  --padding-big: 4vw;
+  --padding-small: 2vw;
 }
 
 * {
@@ -24,6 +28,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* BODY */
+
+body {
+  padding: var(--padding-small) var(--padding-big);
+}
+
 /* HEADER */
 
 #header-container {
@@ -34,11 +44,47 @@ html {
 
 #nav-list {
   display: flex;
+  align-items: center;
   gap: 4vw;
   list-style: none;
 }
 
 li a {
+  font-size: var(--font-subtitles-size);
+  text-decoration: none;
+  color: var(--main-navy_blue);
+  font-family: var(--font-family-text);
+  font-weight: var(--font-subtitles-weight);
+}
+
+#signupbutton-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1.5px var(--main-navy_blue);
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.nav-list-element>label {
+  display: none;
+}
+
+#language-selector {
+  border: none;
+  font-size: var(--font-subtitles-size);
+  text-decoration: none;
+  color: var(--main-navy_blue);
+  font-family: var(--font-family-text);
+  font-weight: var(--font-subtitles-weight);
+}
+
+#language-selector:active {
+  border: none;
+}
+
+#language-selector>option {
   font-size: var(--font-subtitles-size);
   text-decoration: none;
   color: var(--main-navy_blue);
