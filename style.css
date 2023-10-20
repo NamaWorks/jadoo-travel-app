@@ -6,16 +6,18 @@
   --main-light_blue: #5E6282;
   --light-grey: #F9F7FE;
   --light-purple: #F9F7FE;
-  --text-p-size: 1rem;
   --text-subtitle-size: 1.2rem;
   --font-family-titles: 'Volkhov', sans-serif;
   --font-family-text: 'Poppins', serif;
   --font-p-size: 0.8rem;
-  --font-p-weight: 300;
+  --font-p-weight: 400;
   --font-subtitles-size: 1rem;
   --font-subtitles-weight: 500;
-  --padding-big: 4vw;
+  --font-titles-weight: 700;
+  --padding-big: 10vw;
   --padding-small: 2vw;
+  --border-radius: 8px;
+
 }
 
 * {
@@ -28,13 +30,20 @@ html {
   scroll-behavior: smooth;
 }
 
-/* BODY */
+p {
+  font-size: var(--font-p-size);
+  font-family: var(--font-family-text);
+  font-weight: var(--font-p-weight);
+  color: var(--main-navy_blue);
+}
+
+/*! BODY */
 
 body {
   padding: var(--padding-small) var(--padding-big);
 }
 
-/* HEADER */
+/*! HEADER */
 
 #header-container {
   display: flex;
@@ -64,7 +73,7 @@ li a {
   border: solid 1.5px var(--main-navy_blue);
   width: 100px;
   height: 40px;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 
 .nav-list-element>label {
@@ -91,3 +100,78 @@ li a {
   font-family: var(--font-family-text);
   font-weight: var(--font-subtitles-weight);
 }
+
+/*! FIRST SECTION */
+
+#first-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#first-section div {
+  flex: 1;
+}
+
+.section-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vh;
+  /* max-width: 45%; */
+}
+
+#alt-highlight-text {
+  font-family: var(--font-family-text);
+  font-size: var(--font-subtitles-size);
+  text-transform: uppercase;
+  font-weight: var(--font-titles-weight);
+  color: var(--main-salmon);
+}
+
+h1 {
+  font-family: var(--font-family-titles);
+  font-weight: var(--font-titles-weight);
+  font-size: 4.5rem;
+  color: var(--main-navy_blue);
+  line-height: 5rem;
+}
+
+#main-subtitle {
+  font-size: var(--font-p-size);
+  font-family: var(--font-family-text);
+  font-weight: var(--font-p-weight);
+  max-width: 80%;
+}
+
+#button-demo-part{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#find-out-more-button{
+  color: var(--light-grey);
+  background-color: var(--main-yellow);
+  width: 150px;
+  height: 50px;
+  border-radius: var(--border-radius);
+  border: none;
+}
+
+#demo-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+/*! SECOND SECTION */
+
