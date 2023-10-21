@@ -175,3 +175,27 @@ h1 {
 
 /*! SECOND SECTION */
 
+#second-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#second-section .section-text-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0vh;
+}
+.subtitles{
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: var(--font-family-titles);
+  color: var(--main-navy_blue);
+  text-transform: capitalize;
+}
