@@ -12,7 +12,7 @@
   --font-p-size: 0.8rem;
   --font-p-weight: 400;
   --font-subtitles-size: 1rem;
-  --font-subtitles-weight: 500;
+  --font-subtitles-weight: 600;
   --font-titles-weight: 700;
   --padding-big: 10vw;
   --padding-small: 2vw;
@@ -220,6 +220,7 @@ h1 {
 
 .subtitles {
   text-transform: uppercase;
+  font-weight: var(--font-subtitles-weight);
 }
 
 h2 {
@@ -345,3 +346,28 @@ h2 {
   overflow: hidden;
 }
 
+/*! FOURTH SECTION */
+
+#fourth-section{
+  display: flex;
+}
+
+#fourth-section .section-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#steps-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.steps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
