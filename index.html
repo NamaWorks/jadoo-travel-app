@@ -30,43 +30,49 @@
   </div>
 
   <header id="header-container">
-
-    <div class="header-item">
+    
+    <div class="header-item" id="header-logo">
       <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/twuy5g0xgpbm2iab6tyv.png"
-        alt="Jadoo logo">
+      alt="Jadoo logo">
     </div>
+    
+    <nav>
+      <div class="header-item">
+        <ul id="nav-list">
+          <li class="nav-list-element">
+            <a href="#">Destinations</a>
+          </li>
+          <li class="nav-list-element">
+            <a href="#">Hotels</a>
+          </li>
+          <li class="nav-list-element">
+            <a href="#">Flights</a>
+          </li>
+          <li class="nav-list-element">
+            <a href="#">Bookings</a>
+          </li>
+          <li class="nav-list-element">
+            <a href="#">Login</a>
+          </li>
+          <li class="nav-list-element signupbutton">
+            <div id="signupbutton-border"><a href="#">Sign up</a></div>
+          </li>
+          <li class="nav-list-element">
+            <label for="language-selector">Language Selector:</label>
+            <select name="Language" id="language-selector">
+              <option value="English">EN</option>
+              <option value="Español">ES</option>
+              <option value="Deutsch">DE</option>
+              <option value="Français">FR</option>
+            </select>
+          </li>
+        </ul>
+      </div>
 
-    <div class="header-item">
-      <ul id="nav-list">
-        <li class="nav-list-element">
-          <a href="#">Destinations</a>
-        </li>
-        <li class="nav-list-element">
-          <a href="#">Hotels</a>
-        </li>
-        <li class="nav-list-element">
-          <a href="#">Flights</a>
-        </li>
-        <li class="nav-list-element">
-          <a href="#">Bookings</a>
-        </li>
-        <li class="nav-list-element">
-          <a href="#">Login</a>
-        </li>
-        <li class="nav-list-element signupbutton">
-          <div id="signupbutton-border"><a href="#">Sign up</a></div>
-        </li>
-        <li class="nav-list-element">
-          <label for="language-selector">Language Selector:</label>
-          <select name="Language" id="language-selector">
-            <option value="English">EN</option>
-            <option value="Español">ES</option>
-            <option value="Deutsch">DE</option>
-            <option value="Français">FR</option>
-          </select>
-        </li>
-      </ul>
-    </div>
+      <div class="header-item" id="toggle-nav">
+        <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1698261844/Jadoo-travel/menu-bar_jbpawv.png" alt="Burger menu button">
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -106,7 +112,7 @@
         <p class="subtitles">Category</p>
         <h2>We offer best services</h2>
       </div>
-      <div class="section-content">
+      <div class="section-content services">
         <div class="service">
           <div class="service-icon">
             <img
@@ -278,24 +284,34 @@
         <div class="card-fourth">
           <div class="card-fourth-section">
             <div class="card-image">
-              <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732988/Jadoo-travel/agqz5v93iwxk2hciuygc.jpg" alt="Greece Image">
-              </div>
-              <div class="second-part-card">
+              <img
+                src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732988/Jadoo-travel/agqz5v93iwxk2hciuygc.jpg"
+                alt="Greece Image">
+            </div>
+            <div class="second-part-card">
               <div class="card-text">
                 <p class="subtitles">Trip to Greece</p>
                 <p>14-29 June | by Robbin Jolesian</p>
               </div>
               <div class="card-icons">
-                <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/hund0tezg72iisfxn857.png" alt="Leaf icon">
-                <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/gwgpuwnxuowp1ktkh7nt.png" alt="Map icon">
-                <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732987/Jadoo-travel/nskwqc6s6kiskyw1eqqt.png" alt="Pointer icon">
+                <img
+                  src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/hund0tezg72iisfxn857.png"
+                  alt="Leaf icon">
+                <img
+                  src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/gwgpuwnxuowp1ktkh7nt.png"
+                  alt="Map icon">
+                <img
+                  src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732987/Jadoo-travel/nskwqc6s6kiskyw1eqqt.png"
+                  alt="Pointer icon">
               </div>
+            </div>
           </div>
-        </div>
           <div class="card-fourth-section" id="top-card">
             <div class="first-line-card">
               <div .class="image-second-card">
-                <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732987/Jadoo-travel/tvkx9obtrtropbiwnqmf.png" alt="Rome image">
+                <img
+                  src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732987/Jadoo-travel/tvkx9obtrtropbiwnqmf.png"
+                  alt="Rome image">
               </div>
               <div class="text-line">
                 <p>Ongoing</p>
@@ -314,17 +330,28 @@
 
     <section class="sections" id="fifth-section">
       <div class="providers-logos">
-        <div class="provider-logo"><img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/rpfhlydse56lgiikegxy.png" alt="provider logo"></div>
-        <div class="provider-logo"><img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/vkijntlxm2brodpeutut.png" alt="provider logo"></div>
-        <div class="provider-logo"><img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/agin8jqz3avxcafa3fvs.png" alt="provider logo"></div>
-        <div class="provider-logo"><img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/cyumxr87oqbeny8wlbmi.png" alt="provider logo"></div>
-        <div class="provider-logo"><img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/na3b4m8bqsf7kpeqnpee.png" alt="provider logo"></div>
+        <div class="provider-logo"><img
+            src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/rpfhlydse56lgiikegxy.png"
+            alt="provider logo"></div>
+        <div class="provider-logo"><img
+            src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/vkijntlxm2brodpeutut.png"
+            alt="provider logo"></div>
+        <div class="provider-logo"><img
+            src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/agin8jqz3avxcafa3fvs.png"
+            alt="provider logo"></div>
+        <div class="provider-logo"><img
+            src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/cyumxr87oqbeny8wlbmi.png"
+            alt="provider logo"></div>
+        <div class="provider-logo"><img
+            src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/na3b4m8bqsf7kpeqnpee.png"
+            alt="provider logo"></div>
       </div>
     </section>
 
     <section class="sections" id="sixth-section">
       <div id="navigation-icon">
-        <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/queccno58sbcqgcyhfm7.png" alt="navigation icon">
+        <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/queccno58sbcqgcyhfm7.png"
+          alt="navigation icon">
       </div>
       <div id="container-sixth-section">
         <p class="subtitles big-subtitles">
@@ -336,43 +363,71 @@
           <button>Subscribe</button>
         </form>
         <div class="gradient"></div>
-      <div class="second-crosses">
-        <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/frv4ts9eor0qfargowg5.png" alt="crosses">
-      </div>
+        <div class="second-crosses">
+          <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732984/Jadoo-travel/frv4ts9eor0qfargowg5.png"
+            alt="crosses">
+        </div>
       </div>
     </section>
   </main>
 
-<footer>
-  <div class="footer-part">
-    <div class="jadoo-logo">
-      <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/twuy5g0xgpbm2iab6tyv.png" alt="Jadoo-logo">
+  <footer>
+    <div class="footer-part footer-01">
+      <div class="jadoo-logo">
+        <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/twuy5g0xgpbm2iab6tyv.png"
+          alt="Jadoo-logo">
+      </div>
+      <p>Book your trip in minute, get full Control for much longer.</p>
     </div>
-    <p>Book your trip in minute, get full Control for much longer.</p>
-  </div>
-  <div class="footer-part">
-    <ul class="footer-categories">
-      <p class="subtitles">Company</p>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">Mobile</a></li>
-    </ul>
-    <ul class="footer-categories">
-      <p class="subtitles">Contact</p>
-      <li><a href="#">Help/FAQ</a></li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">Affiliates</a></li>
-    </ul>
-    <ul class="footer-categories">
-      <p class="subtitles">More</p>
-      <li><a href="#">Airline fees</a></li>
-      <li><a href="#">Airline</a></li>
-      <li><a href="#">Low fare tips</a></li>
-    </ul>
-  </div>
-  <div class="footer-part"></div>
-</footer>
-  
+    <div class="footer-part footer-02">
+      <ul class="footer-categories">
+        <p class="subtitles">Company</p>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Mobile</a></li>
+      </ul>
+      <ul class="footer-categories">
+        <p class="subtitles">Contact</p>
+        <li><a href="#">Help/FAQ</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Affiliates</a></li>
+      </ul>
+      <ul class="footer-categories">
+        <p class="subtitles">More</p>
+        <li><a href="#">Airline fees</a></li>
+        <li><a href="#">Airline</a></li>
+        <li><a href="#">Low fare tips</a></li>
+      </ul>
+    </div>
+    <div class="footer-part  footer-03">
+      <div id="social-icons">
+        <div class="social-icon-container">
+          <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1698247323/Jadoo-travel/Facebook_Icon_o2itsm.png"
+            alt="Facebook link icon" class="social-icon-content">
+        </div>
+        <div class="social-icon-container">
+          <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1698247323/Jadoo-travel/instagram_1_hspbxs.png"
+            alt="Instagram link icon" class="social-icon-content">
+        </div>
+        <div class="social-icon-container">
+          <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1698247323/Jadoo-travel/twitterpng_rm3o7t.png"
+            alt="Twitter link icon" class="social-icon-content">
+        </div>
+      </div>
+      <p class="subtitles">Discover our app</p>
+      <div class="stores-icons">
+        <div class="app-store">
+          <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732985/Jadoo-travel/xylq4u3sf3gkshgxabtk.png"
+            alt="Gloogle store button">
+        </div>
+        <div class="app-store">
+          <img src="https://res.cloudinary.com/dgrhbsilh/image/upload/v1697732986/Jadoo-travel/pkj7skehynoifwml4dzn.png"
+            alt="Apple store button">
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
 </body>
 
